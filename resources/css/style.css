@@ -4,6 +4,7 @@ body {
   font-size: 22px;
   background-color: black;
   opacity: 0.9;
+  color: seashell;
 
 }
 /*Header*/
@@ -13,8 +14,11 @@ header {
   border-bottom: 1px solid seashell;
   position: fixed;
   width: 100%;
+  z-index: 1;
   align-items: center;
   margin-top: 0;
+  margin-bottom: 70px;
+  border: 1px solid red;
 }
 
 .logo {
@@ -25,6 +29,7 @@ header {
   height: 50px;
   flex-grow: 1;
   padding-left: 10px;
+  border: 1px solid red;
 }
 
 .logo img {
@@ -36,8 +41,37 @@ header {
   text-decoration: underline;
   padding: 20px;
   margin-right: 10px;
+  border: 1px solid red;
 }
 
 .navigation span {
 margin-right: 10px;
+color: seashell;
+}
+
+/*Mission info*/
+
+.mission {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  align-content: center;
+  position: relative;
+  top: 70px;
+  left: 100px;
+  background-image: url('../images/img-mission-background.jpg');
+  margin: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.content {
+display: flex;
+width: 1200px;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+background-color: black;
+border: 1px solid red;
 }
