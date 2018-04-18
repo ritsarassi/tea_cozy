@@ -1,0 +1,43 @@
+/*Universal styles*/
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  opacity: 0.9;
+
+}
+/*Header*/
+header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  margin-top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  height: 50px;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  width: 180px;
+}
+/*Navigation Menu*/
+.navigation {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.navigation span {
+margin-right: 10px;
+}
