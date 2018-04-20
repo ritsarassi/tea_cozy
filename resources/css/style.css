@@ -188,7 +188,7 @@ background-color: black;
   justify-content: center;
   background-color: black;
   width: 300px;
-  min-height: 270px;
+  max-height: 270px;
   opacity: 1;
   margin: 20px;
 }
