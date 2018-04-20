@@ -13,6 +13,10 @@ a {
   text-decoration: underline;
 }
 
+h3 {
+  font-size: 22px;
+}
+
 /*Header*/
 header {
   display: flex;
@@ -146,4 +150,45 @@ background-color: black;
   height: 200px;
   width: 300px;
   margin: 10px;
+}
+
+/*Locations*/
+
+.locations {
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  margin: auto;
+  background-image: url('../images/img-locations-background.jpg');
+}
+
+.adress {
+  display: flex;
+  justify-content: center;
+
+}
+
+.adressblocks {
+  display: flex;
+  width: 300px;
+  height: 250px;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 20px;
+  justify-content: center;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 300px;
+  min-height: 270px;
+  opacity: 1;
+  margin: 20px;
 }
