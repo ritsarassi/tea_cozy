@@ -120,6 +120,7 @@ background-color: black;
   right: 0;
   width: 1000px;
   justify-content: center;
+  align-items: center;
   margin: auto;
   flex-flow: row wrap;
 }
@@ -191,4 +192,26 @@ background-color: black;
   max-height: 270px;
   opacity: 1;
   margin: 20px;
+}
+
+/*footer*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  margin: 10px;
+}
+
+.email {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+
+span h5 {
+  float: left;
+  margin-left: 20px;
 }
