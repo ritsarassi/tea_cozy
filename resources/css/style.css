@@ -83,40 +83,48 @@ background-color: black;
   max-width: 1000px;
   height: 1700px;
   margin: auto;
+  flex-flow:: column wrap;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
-  align-content: space-between;
   border: 1px solid red;
 }
 
 .teamonth {
   display: flex;
-  max-width: 1000px;
-  position: relative;
-  top: 70px;
-  margin: auto;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  top: 800px;
+  align-items: center;
   flex-flow: column wrap;
+  margin: 0;
   border: 1px solid red;
 }
-
-
 
 .testing {
   display: flex;
+  align-items: center;
+  position: absolute;
+  top: 1000px;
   max-width: 1000px;
-  max-height: 232px;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  flex-flow: row wrap;
   border: 1px solid red;
 }
 
-
+.content {
+  display: flex;
+  border: 1px solid red;
+  position: relative;
+  left: 260px;
+  align-items: center;
+  flex-flow: column wrap;
+}
 .text {
   display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid red;
+  flex-flow: row wrap;
 }
 
 .image {
