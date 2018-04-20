@@ -81,12 +81,11 @@ background-color: black;
 .images {
   display: flex;
   max-width: 1000px;
-  height: 1700px;
+  height: 800px;
   margin: auto;
   flex-flow:: column wrap;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
 
 .teamonth {
@@ -96,34 +95,54 @@ background-color: black;
   top: 800px;
   align-items: center;
   flex-flow: column wrap;
-  margin: 0;
-  border: 1px solid red;
 }
 
-.testing {
+.steeping {
+  display: flex;
+  flex-flow: column;
+  height: 22px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+/*Tea collection part*/
+
+.tea_collection {
   display: flex;
   align-items: center;
   position: absolute;
-  top: 1000px;
+  top: 950px;
   max-width: 1000px;
-  justify-content: center;
+  justify-content: space-between;
   align-content: center;
-  margin: 0;
+  margin: auto;
   flex-flow: row wrap;
-  border: 1px solid red;
 }
 
 .content {
   display: flex;
-  border: 1px solid red;
   position: relative;
   left: 260px;
+  max-width: 1000px;
   align-items: center;
   flex-flow: column wrap;
 }
+
+.second {
+display: flex;
+align-items: center;
+position: relative;
+left: 170px;
+margin: 10px;
+justify-content: space-between;
+}
+
 .text {
   display: flex;
-  border: 1px solid red;
+  margin: 10px;
+  height: 22px;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -131,5 +150,5 @@ background-color: black;
   display: flex;
   height: 200px;
   width: 300px;
-  border: 1px solid red;
+  margin: 10px;
 }
