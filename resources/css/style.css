@@ -110,30 +110,27 @@ header {
 
 @media only screen and (max-width 700px) {
 
-  #mission {
-    max-width: 30rem;
-    height: 17rem;
-    position: relative;
-    background-position: 20%;
+  .mission div {
+    width: 30rem;
+    height: auto;
+    margin: 0;
+    padding: 0;
   }
 
   .text-content {
-    display: flex;
-    width: 100%;
-    height: 3rem;
-    margin: auto 0;
+    width: auto;
+    height: auto;
+    margin: 1rem 0;
     padding: 0;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+
   }
 
   .text-content h2 {
-    font-size: 1.33rem;
+    font-size: 1rem;
   }
 
   .text-content h4 {
-    font-size: 1rem;
+    font-size: .5rem;
   }
 }
 
@@ -172,7 +169,7 @@ header {
   height: 22px;
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 700px) {
   .teamonth,
     .steeping {
     font-size: 1.33rem;
@@ -266,7 +263,6 @@ header {
 .adress {
   display: flex;
   justify-content: center;
-
 }
 
 .adressblocks {
@@ -291,27 +287,27 @@ header {
   margin: 20px;
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 700px) {
   .locations {
     max-width: 30rem;
-    height: 30rem;
-    justify-content: flex-start;
+    height: auto;
+    flex-direction: column;
   }
 
-  .adress {
-
-
+  .locations h2 {
+    font-size: 2rem;
+    color: black;
   }
 
-  .post {
-;
+  .adressblocks {
+    flex-direction: column;
+    height: 100%;
   }
 
   .locations h3 {
     font-size: 1rem;
     margin: 0;
   }
-
 }
 
 /*Footer*/
